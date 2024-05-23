@@ -5,6 +5,14 @@ import Header from "./components/Header";
 import graph from "./graph.svg";
 import randomBlob from "./random-blob.svg";
 import PricingItem from "./PricingItem";
+import logoBlue from "./logo-blue.svg";
+
+import {
+	FaInstagram,
+	FaLinkedin,
+	FaLinkedinIn,
+	FaWhatsapp,
+} from "react-icons/fa";
 
 function App() {
 	return (
@@ -89,6 +97,58 @@ function App() {
 						price="Rp 750.000 / bln"
 					/>
 				</div>
+			</div>
+
+			<div
+				id="contact"
+				className="flex flex-col gap-[50px] items-center px-[30px] pb-[70px]"
+			>
+				<h2 className="font-semibold text-[20px]">CONTACT</h2>
+				<div className="flex flex-col gap-[100px] xl:flex-row xl:justify-between">
+					<div className="flex flex-col gap-[20px] xl:w-[398px]">
+						<div className="text-main-blue font-semibold text-[40px] flex flex-row items-center gap-[10px]">
+							<img
+								src={logoBlue}
+								alt="Logo blue"
+								className="w-[40px] h-[40px]"
+							/>
+							REFAA
+						</div>
+						<div className="font-semibold text-[20px]">
+							PT Refaa Technology Solutions
+						</div>
+						<div className="text-gray-500">
+							Jln. Pajangan - Selarong, Butuh Lor, Triwidadi, Pajangan, Bantul,
+							D.I. Yogyakarta 55751
+						</div>
+					</div>
+					<div className="font-semibold flex flex-col gap-[10px]">
+						<a
+							className="flex flex-row items-center gap-[16px] hover:text-main-blue"
+							href="https://www/linkedin.com"
+						>
+							<FaLinkedin size={25} /> PT Refaa Technology Solutions
+						</a>
+						<a
+							className="flex flex-row items-center gap-[16px] hover:text-main-blue"
+							href="https://www.instagram.com"
+						>
+							<FaInstagram size={25} /> @refaa.tech
+						</a>
+						<a
+							className="flex flex-row items-center gap-[16px] hover:text-main-blue"
+							href="https://www.whatsapp.com"
+						>
+							<FaWhatsapp size={25} /> 0877 6765 5426
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div className="w-full border-t-[1px] text-center p-[10px]">
+				<span className="text-[12px] text-gray-500 sm:text-[16px]">
+					2024 Refaa Technology Solutions. All right reserved.
+				</span>
 			</div>
 		</>
 	);
