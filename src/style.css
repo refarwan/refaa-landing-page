@@ -631,6 +631,18 @@ body {
   height: 100px;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
 .w-\[207px\] {
   width: 207px;
 }
@@ -653,6 +665,10 @@ body {
 
 .w-\[558px\] {
   width: 558px;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .flex-col {
@@ -687,6 +703,18 @@ body {
   gap: 15px;
 }
 
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[5px\] {
+  gap: 5px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -714,12 +742,20 @@ body {
   background-color: rgb(255 255 255 / 0.8);
 }
 
+.bg-main-blue\/20 {
+  background-color: rgb(65 176 250 / 0.2);
+}
+
 .fill-main-blue {
   fill: #41B0FA;
 }
 
 .p-\[20px\] {
   padding: 20px;
+}
+
+.p-\[30px\] {
+  padding: 30px;
 }
 
 .px-\[12px\] {
@@ -747,12 +783,29 @@ body {
   padding-right: 20px;
 }
 
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.pb-\[100px\] {
+  padding-bottom: 100px;
+}
+
+.pt-\[60px\] {
+  padding-top: 60px;
+}
+
 .text-center {
   text-align: center;
 }
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-bold {
@@ -776,6 +829,41 @@ body {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-main-blue {
+  --tw-text-opacity: 1;
+  color: rgb(65 176 250 / var(--tw-text-opacity));
+}
+
+.shadow-\[0_0_10_1_rgb\(0\2c 0\2c 0\)\] {
+  --tw-shadow: 0 0 10 1 rgb(0,0,0);
+  --tw-shadow-colored: 0 0 10 1 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_0_10px_1_rgb\(0\2c 0\2c 0\)\] {
+  --tw-shadow: 0 0 10px 1 rgb(0,0,0);
+  --tw-shadow-colored: 0 0 10px 1 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_0_10px_1px_rgb\(0\2c 0\2c 0\)\] {
+  --tw-shadow: 0 0 10px 1px rgb(0,0,0);
+  --tw-shadow-colored: 0 0 10px 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_0_10px_1px_rgba\(0\2c 0\2c 0\2c 25\)\] {
+  --tw-shadow: 0 0 10px 1px rgba(0,0,0,25);
+  --tw-shadow-colored: 0 0 10px 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_0_10px_1px_rgba\(0\2c 0\2c 0\2c \.25\)\] {
+  --tw-shadow: 0 0 10px 1px rgba(0,0,0,.25);
+  --tw-shadow-colored: 0 0 10px 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .transition-all {
@@ -869,8 +957,16 @@ body {
     flex-direction: column;
   }
 
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .sm\:gap-\[20px\] {
     gap: 20px;
+  }
+
+  .sm\:gap-\[40px\] {
+    gap: 40px;
   }
 
   .sm\:border {
@@ -986,6 +1082,10 @@ body {
 
   .xl\:w-\[1200px\] {
     width: 1200px;
+  }
+
+  .xl\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 
   .xl\:items-start {

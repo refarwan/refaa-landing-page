@@ -4,6 +4,7 @@ import blob from "./blob.svg";
 import Header from "./components/Header";
 import graph from "./graph.svg";
 import randomBlob from "./random-blob.svg";
+import PricingItem from "./PricingItem";
 
 function App() {
 	return (
@@ -49,6 +50,45 @@ function App() {
 					transformasi digital yang efektif dan berkelanjutan untuk masa depan
 					bisnis yang lebih cerah
 				</p>
+			</div>
+
+			<div
+				id="price"
+				className="bg-main-blue/20 my-[30px] px-[100px] pt-[60px] pb-[100px] flex flex-col items-center gap-[50px]"
+			>
+				<h2 className="font-semibold text-[20px]">PRICING</h2>
+				<div className="flex flex-col justify-center gap-[40px] sm:flex-row sm:flex-wrap xl:flex-nowrap">
+					<PricingItem
+						title="Basic"
+						feature={[
+							"Mencatat barang masuk",
+							"Mencatat barang keluar",
+							"Mencatat hasil keuntungan",
+						]}
+						price="Rp 90.000 / bln"
+					/>
+					<PricingItem
+						title="Business"
+						feature={[
+							"Mencatat barang masuk dan keluar",
+							"Mencatat Keuntungan",
+							"Dapat menganalisa hasil penjualan dengan CHART",
+							"Support 7x24 Jam",
+						]}
+						price="Rp 300.000 / bln"
+					/>
+					<PricingItem
+						title="Entrepreneur"
+						feature={[
+							"Mencatat barang masuk dan keluar",
+							"Mencatat Keuntungan",
+							"Dapat menganalisa hasil penjualan dengan CHART d. Support 7x24 Jam",
+							"Export data ke Excel",
+							"AI Prediksi penghasilan",
+						]}
+						price="Rp 750.000 / bln"
+					/>
+				</div>
 			</div>
 		</>
 	);
