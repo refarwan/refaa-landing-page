@@ -3,9 +3,11 @@ import { useState } from "react";
 import logo from "../logo.svg";
 
 import { FaBars } from "react-icons/fa";
+import { usePopup } from "./Popup";
 
 const Header = () => {
 	const [menuIsActive, setMenuIsActive] = useState<boolean>(false);
+	const popup = usePopup();
 
 	return (
 		<header className="px-[12px] py-[10px] flex justify-between xl:py-[20px] xl:px-[30px]">
@@ -45,7 +47,15 @@ const Header = () => {
 							CONTACT
 						</a>
 					</nav>
-					<button className="block bg-main-blue w-full text-white h-[40px] rounded-md font-semibold hover:text-white hover:bg-main-blue sm:bg-white sm:text-main-blue sm:border sm:border-main-blue sm:px-[16px] sm:h-[26px] xl:h-[30px] xl:px-[24px]">
+					<button
+						onClick={() => {
+							popup.open({
+								type: "success",
+								message: "Horee",
+							});
+						}}
+						className="block bg-main-blue w-full text-white h-[40px] rounded-md font-semibold hover:text-white hover:bg-main-blue sm:bg-white sm:text-main-blue sm:border sm:border-main-blue sm:px-[16px] sm:h-[26px] xl:h-[30px] xl:px-[24px]"
+					>
 						LOGIN
 					</button>
 				</div>
