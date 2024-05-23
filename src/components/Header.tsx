@@ -4,6 +4,7 @@ import logo from "../logo.svg";
 
 import { FaBars } from "react-icons/fa";
 import { usePopup } from "./Popup";
+import LoginForm from "../LoginForm";
 
 const Header = () => {
 	const [menuIsActive, setMenuIsActive] = useState<boolean>(false);
@@ -67,9 +68,10 @@ const Header = () => {
 					</nav>
 					<button
 						onClick={() => {
+							setMenuIsActive(false);
 							popup.open({
-								type: "success",
-								message: "Horee",
+								type: "custom",
+								customComponent: <LoginForm />,
 							});
 						}}
 						className="block bg-main-blue w-full text-white h-[40px] rounded-md font-semibold hover:text-white hover:bg-main-blue sm:bg-white sm:text-main-blue sm:border sm:border-main-blue sm:px-[16px] sm:h-[26px] xl:h-[30px] xl:px-[24px]"
