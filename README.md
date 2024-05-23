@@ -1,3 +1,22 @@
+# Altech Omega Andalan Tecthnical Test Number 2
+
+## Teknologi yang saya gunakan
+
+### TypeScript
+walaupun penggunaan typescript membuat kode lebih panjang karena memerlukan delkarasi type, saya menggunakan typescript untuk meminimlamisir error saat proses development walaupun membuat
+
+### Tailwind Css
+saya menggunakan framerwork tailwindcss karena dulu saya berangkat dari css native, dengan tailwindcss kita tidak perlu membuka file css. akan tetapi kekurangan tailwindcss adalah className nya menjadi terlalu banyak
+
+### react-icons
+saya menggunakan react icons karena menambahkan icons menjadi lebih mudah, hanya perlu melakukan inport component icon akan tergenerate otomatin menjadi SVG
+
+
+# Mockup Desain
+Untuk desain bisa dicek di project figma saya di https://www.figma.com/design/YqFH9UNGhc0gynbeI0yyCO/Refaa-Landing-Page?node-id=70%3A2&t=x2Rr73feja5rKyvc-1
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
