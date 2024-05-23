@@ -31,11 +31,14 @@ function App() {
 					dan efisien.
 				</p>
 			</div>
-			<img
-				src={randomBlob}
-				alt="Random Blob"
-				className="w-[558px] absolute top-[425px] left-[70px] -z-50 sm:top-[312px] sm:left-[395px] xl:left-[unset] xl:-right-[160px] xl:top-[251px]"
-			/>
+			<div className="w-screen overflow-hidden h-[564px] absolute -z-50 right-0 top-[420px] sm:top-[320px]">
+				<img
+					src={randomBlob}
+					alt="Random Blob"
+					className="w-[558px] absolute top-0 -right-[100px] sm:-right-[200px] xl:left-[unset] xl:-right-[160px]"
+				/>
+			</div>
+
 			<div
 				id="about"
 				className="bg-white/80 flex flex-col gap-[15px] px-[20px] py-[10px] items-center my-[30px] sm:p-[20px] sm:px-[70px] xl:w-[1200px] xl:mx-auto xl:bg-transparent xl:py-[60px] xl:px-[100px]"
