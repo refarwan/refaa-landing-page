@@ -61,7 +61,7 @@ function App() {
 			</div>
 
 			<div
-				id="price"
+				id="pricing"
 				className="bg-main-blue/20 my-[30px] px-[100px] pt-[60px] pb-[100px] flex flex-col items-center gap-[50px]"
 			>
 				<h2 className="font-semibold text-[20px]">PRICING</h2>
