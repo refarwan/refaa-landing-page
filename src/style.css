@@ -683,6 +683,10 @@ body {
   gap: 20px;
 }
 
+.gap-\[15px\] {
+  gap: 15px;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -704,6 +708,10 @@ body {
 .bg-red-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.bg-white\/80 {
+  background-color: rgb(255 255 255 / 0.8);
 }
 
 .fill-main-blue {
@@ -734,6 +742,11 @@ body {
   padding-bottom: 50px;
 }
 
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -753,6 +766,16 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .transition-all {
@@ -864,6 +887,10 @@ body {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
+  .sm\:p-\[20px\] {
+    padding: 20px;
+  }
+
   .sm\:px-\[24px\] {
     padding-left: 24px;
     padding-right: 24px;
@@ -936,6 +963,11 @@ body {
     right: -160px;
   }
 
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .xl\:h-\[30px\] {
     height: 30px;
   }
@@ -950,6 +982,10 @@ body {
 
   .xl\:w-\[500px\] {
     width: 500px;
+  }
+
+  .xl\:w-\[1200px\] {
+    width: 1200px;
   }
 
   .xl\:items-start {
@@ -976,6 +1012,10 @@ body {
     gap: ;
   }
 
+  .xl\:bg-transparent {
+    background-color: transparent;
+  }
+
   .xl\:px-\[30px\] {
     padding-left: 30px;
     padding-right: 30px;
@@ -994,6 +1034,16 @@ body {
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:px-\[100px\] {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .xl\:py-\[60px\] {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .xl\:text-\[30px\] {
