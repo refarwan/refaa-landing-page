@@ -442,6 +442,10 @@ body {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -643,6 +647,10 @@ body {
   width: 300px;
 }
 
+.w-\[40px\] {
+  width: 40px;
+}
+
 .w-\[558px\] {
   width: 558px;
 }
@@ -653,10 +661,6 @@ body {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[40px\] {
-  width: 40px;
 }
 
 .flex-row {
@@ -679,12 +683,20 @@ body {
   justify-content: space-between;
 }
 
+.gap-\[100px\] {
+  gap: 100px;
+}
+
 .gap-\[10px\] {
   gap: 10px;
 }
 
 .gap-\[15px\] {
   gap: 15px;
+}
+
+.gap-\[16px\] {
+  gap: 16px;
 }
 
 .gap-\[20px\] {
@@ -701,14 +713,6 @@ body {
 
 .gap-\[50px\] {
   gap: 50px;
-}
-
-.gap-\[16px\] {
-  gap: 16px;
-}
-
-.gap-\[100px\] {
-  gap: 100px;
 }
 
 .rounded-md {
@@ -791,12 +795,12 @@ body {
   padding-bottom: 100px;
 }
 
-.pt-\[60px\] {
-  padding-top: 60px;
-}
-
 .pb-\[70px\] {
   padding-bottom: 70px;
+}
+
+.pt-\[60px\] {
+  padding-top: 60px;
 }
 
 .text-center {
@@ -1016,16 +1020,16 @@ body {
     width: 375px;
   }
 
+  .xl\:w-\[398px\] {
+    width: 398px;
+  }
+
   .xl\:w-\[500px\] {
     width: 500px;
   }
 
   .xl\:w-\[578px\] {
     width: 578px;
-  }
-
-  .xl\:w-\[398px\] {
-    width: 398px;
   }
 
   .xl\:flex-row {

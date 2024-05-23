@@ -6,4 +6,8 @@
 	body {
 		@apply text-gray-800;
 	}
+
+	html {
+		@apply scroll-smooth;
+	}
 }
