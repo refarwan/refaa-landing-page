@@ -37,13 +37,31 @@ const Header = () => {
 					}}
 				>
 					<nav className="flex flex-col gap-[10px] sm:flex-row sm:gap-[20px] xl:text-[20px]">
-						<a className="font-semibold hover:text-main-blue" href="#about">
+						<a
+							onClick={() => {
+								setMenuIsActive(false);
+							}}
+							className="font-semibold hover:text-main-blue"
+							href="#about"
+						>
 							ABOUT
 						</a>
-						<a className="font-semibold hover:text-main-blue" href="#pricing">
+						<a
+							onClick={() => {
+								setMenuIsActive(false);
+							}}
+							className="font-semibold hover:text-main-blue"
+							href="#pricing"
+						>
 							PRICING
 						</a>
-						<a className="font-semibold hover:text-main-blue" href="#contact">
+						<a
+							onClick={() => {
+								setMenuIsActive(false);
+							}}
+							className="font-semibold hover:text-main-blue"
+							href="#contact"
+						>
 							CONTACT
 						</a>
 					</nav>
